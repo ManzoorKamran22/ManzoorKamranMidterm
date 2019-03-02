@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.*;
+import java.text.DecimalFormat;
 
 public class CsvReader {
 
@@ -63,6 +64,17 @@ public class CsvReader {
             }
         }
 
+        //Applied Logic
+        DecimalFormat df2 = new DecimalFormat(".##"); //to format decimal numbers
+        int totalStudent = roster.size();
+        double totalScore = 0;
+
+        for (Trainee trainee : roster) {
+            totalScore = totalScore + trainee.getNumberOfExercisesSolved();
+        }
+        System.out.println("\nNumber of Students: " + totalStudent);
+        System.out.println("Total CodeLab Score: " + (int)totalScore); //casting totalScore variable to integer
+        System.out.println("\nThe Average Score of the CodeLab is: "+ df2.format(totalScore/totalStudent));
     }
 
 }
