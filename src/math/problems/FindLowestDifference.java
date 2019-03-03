@@ -1,6 +1,8 @@
 package math.problems;
 
 public class FindLowestDifference {
+    //int minNum =0;
+
     public static void main(String[] args) {
         /*
          Implement in java.
