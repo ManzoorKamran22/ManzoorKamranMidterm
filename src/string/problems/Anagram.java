@@ -7,7 +7,7 @@ import java.util.Arrays;
 public class Anagram {
 
     //Static method to ckeck if two Strings are Anagram or not
-    public static void isAnagram(String str1, String str2) {
+    public static boolean isAnagram(String str1, String str2) {
         String s1 = str1.replaceAll("\\s", ""); // \\s - matches single whitespace character
         String s2 = str2.replaceAll("\\s", "");
         boolean status = true;
@@ -25,6 +25,7 @@ public class Anagram {
         } else {
             System.out.println(s1 + " and " + s2 + " are not anagrams");
         }
+        return status;
     }
 
     public static void main(String[] args) {
