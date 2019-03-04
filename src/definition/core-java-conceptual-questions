@@ -1,44 +1,112 @@
 Please answer the below core-java Questions:
 
 What is programing language?
-A.
-
-
-
+A. Programming language is simply a set of instructions that can be used to manipulate data in the computer.
+It is used to create programs that implement specific algorithms.
 
 What jdk contains or composed of and define each components?
-A.
-
-
-
-
+A. JDK is used for developing Java applications and applets.It includes: an interpreter/loader (java),
+a compiler (javac) is used to compile Java source code files into executable Java bytecode classes,
+debugger is used to debug a code. Disassembler to disassembles class files.
+An archiver (jar), a documentation generator (javadoc) and other tools needed in Java development.
 
 What is IDE?
-A. IDE is stands for Integrated Development Environment.
+A. IDE is stands for Integrated Development Environment. An IDE typically contains a code editor, a compiler or interpreter,
+and a debugger, accessed through a single graphical user interface (GUI). The user writes and edits source code in the code editor.
+The compiler translates the source code into a readable language that is executable for a computer. And the debugger tests the software
+to solve any issues or bugs.
 
 What are the IDEs available in the market to support java?
+A. Eclipse, Intellij, NetBeans, JGrasp and so on.
+
 Explain the entire java life cycle.
-what is class?
+A. A Java program is written using either a Text Editor like Textpad or an IDE like Eclipse and is saved as a .java file. (Program.java)
+   The .java file is then compiled using Java compiler and a .class file is obtained from it. (Program.class)
+   The .class file is now portable and can be used to run this Java program in any platform.
+   Class file (Program.class) is interpreted by the JVM installed on a particular platform. JVM is part of the JRE software.
+
+What is class?
+A. Class is a blue print or template for objects.
+
 What is object?
+A. Object is an instance of a class.
+
 What is the entry point of an application?
+A. In computer programming, an entry point is where the first instructions in a program are executed, and where the program has access
+to command line arguments. To start a program's execution, the loader or operating system passes control to its entry point.
+For example: in Java 'main' method is the entry point of the application.
+
 Why main is static?
+A. In order to invoke the JVM without creating a new object of a class, we need to have a “main” method as static.
+
 Which class is the superclass of all classes?
+A. The Object class, which is stored in the java.lang package, is the ultimate superclass of all Java classes (except for Object ).
+
 What is difference between path and classpath variables?
+A. -Path is an environment variable which is used by the operating system to find the executables.
+Classpath is an environment variable which is used by the Java compiler to find the path, of classes.ie in J2EE we give the path of jar files.
+-PATH is nothing but setting up an environment for operating system. Operating System will look in this PATH for executables.
+Classpath is nothing but setting up the environment for Java. Java will use to find compiled classes.
+-Path refers to the system while classpath refers to the Developing Environment.
+-In path we set the path of executables while in classpath we set path of jars for compiling classes.
+
 What is the difference between an Interface and Abstract class?
-Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
+A. Interface can only have abstract method but Abstract class can be both abstract and non abstract method.
+
+Can you make an Object from an Interface and Abstract class? if not how do you use it?
+A. No. We can implements Interface or extends a Abstract class.
+
 what is Access Specifier?
-What is OOP ? Define each feature of java OOP.
+A. Java Access Specifiers (also known as Visibility Specifiers) regulate access to classes, fields and methods in Java.
+These Specifiers determine whether a field or method in a class, can be used or invoked by another method in another class or sub-class.
+Access Specifiers can be used to restrict access.
+
+What is OOP? Define each feature of java OOP.
+A. OOP stands for Object Oriented Programming.
+Features: Abstraction(implementation hiding), Inheritance(is used for extending classes), Encapsulation(Data hiding),
+and Polymorphism(Ability of an object to take many form).
+
 What is Java Package and which package is imported by default?
+A. Java package contains API in the java API library. Default package: java.lang.object;
+
 What is API? Name list of API that you have used so far.
+A. API stands for Application Programming Interface. It is a set of pre-written codes found in JDK to make our code writing experience easier.
+Some of the most common API I have used:
+  java.util.*;
+  java.lang.object;
+  java.lang.Math;
+
 Does java support multiple inheritance, explain why or why not?
+A. No, to avoid ambiguity error java does not support multiple inheritance through class.
+
 What is method overloading and when it happens?
+A. Overloading occurs when two or more methods in one class have the same method name but with different arguments.
+Method overloading happens in compile time.
+
 Explain exceptions in java and how to handle it.
-What is static keyword in java? How it has been used in variables and methods ?
+A. An exception is an unwanted or unexpected event, which occurs during the execution of a program i.e at run time, that disrupts
+the normal flow of the program’s instructions. Exception indicates conditions that a reasonable application might try to catch.
+Java exception handling is managed via five keywords: try, catch, throw, throws, and finally.
+
+What is static keyword in java? How it has been used in variables and methods?
+A. The static keyword in Java is used for memory management mainly.
+
 What is final and how it has been used variables and methods?
+A.
+
 What is final, finally and finalize?
+A.
+
 What is a constructor ?
+A. It is a Block of codes just like a method but without a return type. Can be called when you creating an object.
+The purpose of constructor is to initialize an object.
+
 Can we have multiple constructors in a class?
+A. Yes, we can have multiple constructors in a class.
+
 If we don't have a constructor declared, what is called during the object creation?
+A. Default Constructor will be called.
+
 What is "this" keyword in java ?
 What is "super" keyword in java? How many possible way can you use?
 What is JVM stand for ?
