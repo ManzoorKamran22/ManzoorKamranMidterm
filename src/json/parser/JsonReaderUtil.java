@@ -45,18 +45,25 @@ public class JsonReaderUtil {
         JsonArray  jsonArray = null;
         JsonParser jp = new JsonParser();
         JsonElement root = jp.parse(new InputStreamReader((InputStream) request.getContent()));
+
         if (root instanceof JsonObject) {
             JsonObject rootObj = root.getAsJsonObject();
         } else if (root instanceof JsonArray) {
             jsonArray =  root.getAsJsonArray();
         }
+
         for (int i = 0; i < jsonArray.size()-1; i++) {
             try {
                 JsonObject jsonobject = jsonArray.get(i).getAsJsonObject();
+
                 //you code start here
                 String empEmail = jsonobject.get("empEmail").toString();
+                String empName = jsonobject.get("empName").toString();
+                String empSalary = jsonobject.get("salary").toString();
+                String empDept = jsonobject.get("department").toString();
 
-
+                emp = new Employee(empEmail, empName, empSalary, empDept);
+                empList.add(emp);
             }catch(Exception ex){
 
             }
@@ -66,5 +73,4 @@ public class JsonReaderUtil {
             System.out.println(entry.getEmpEmail()+" "+entry.getEmpName()+" "+entry.getSalary()+" "+entry.getDepartment());
         }
     }
-
 }
