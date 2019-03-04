@@ -92,10 +92,17 @@ What is static keyword in java? How it has been used in variables and methods?
 A. The static keyword in Java is used for memory management mainly.
 
 What is final and how it has been used variables and methods?
-A.
+A. final(lowercase) is a reserved keyword in java. The final keyword in java has different meaning depending upon it is applied to
+variable, class or method.
+final with Variables : The value of variable cannot be changed once initialized.
+final with Method : The method cannot be overridden by a subclass. Whenever we declare any method as final, then it means that
+we can’t override that method.
 
 What is final, finally and finalize?
-A.
+A. - Final is a keyword. It is used to apply restrictions on class, method and variable. Final class can't be inherited,
+final method can't be overridden and final variable value can't be changed.
+- Finally is a block. It is used to place important code, it will be executed whether exception is handled or not.
+- Finalize is a method. It is used to perform clean up processing just before object is garbage collected.
 
 What is a constructor ?
 A. It is a Block of codes just like a method but without a return type. Can be called when you creating an object.
@@ -107,41 +114,159 @@ A. Yes, we can have multiple constructors in a class.
 If we don't have a constructor declared, what is called during the object creation?
 A. Default Constructor will be called.
 
-What is "this" keyword in java ?
+What is "this" keyword in java?
+A. 'this' keyword is a reference variable in Java that refers to the current object.
+  - It can be used to refer instance variable of current class
+  - It can be used to invoke or initiate current class constructor
+  - It can be passed as an argument in the method call
+  - It can be passed as argument in the constructor call
+  - It can be used to return the current class instance
+
 What is "super" keyword in java? How many possible way can you use?
-What is JVM stand for ?
+A. Super keyword is used to call parent class constructor. (super.methodName())
+Super keyword must be the first statement in any particular constructor. You can not have two Super keyword in one constructor.
+
+What is JVM stand for?
+A. JVM stands for Java Virtual Machine.
+
 Is JVM platform independent?
+A. JVM (Java virtual machine) is platform dependant while java language is platform independent.
+
 What version of java are you using?
-What is JAR stand for ?
+A. java version "1.8.0_111"
+
+What is JAR stand for?
+A. JAR stands for Java Archive.
+
 What is the difference between JDK and JVM?
+A. JDK is the Java Development Kit – it is the JRE, but with javac (which is what you need to compile Java source code) and
+other programming tools added.
+JVM is the Java Virtual Machine – it actually runs Java bytecode.
+
 What is the difference between JVM and JRE?
+A. JVM  executes bytecode at runtime and in JRE.
+JRE provides platform to execute java programs and its the implementation of JVM.
+
 What is compile time and run time?
+A. During compile time source code changes into executable code .but during run time executable code is used to give output.
+Error present during compile time could be compiled without error,only syntax of code has to be correct.
+But if logic of code is not correct then it will be compiled successfully but gives error during runtime.
+Error during compile time is due to syntax error but error during runtime is due to logical error.
+
 What is heap?
+A. The heap is the area in memory where objects are stored.
+
 How java manage it's memory?
+A. Java has automatic memory management,has a garbage collector working in background to clean the unused objects and
+free memories. Two big parts of memory are STACK & HEAP. Stack memory stores local variables and functions while heap memory
+stores all the objects.
+
 What is the difference between String, StringBuffer and StringBuilder?
+A. String is an immutable class, it can't be changed. StringBuilder is a mutable class that can be appended to, characters replaced
+or removed and ultimately converted to a String. StringBuffer is the original synchronized version of StringBuilder.
+
 What is Singleton class?
+A. In OOP, a singleton class is a special class that can have only one object (instance of the class) at a time. If you try to
+create another object it will point to the same object always.
+
 What is Serialization and Deserialization?
-when to use transient variable in java?
+A. Serialization is a mechanism of converting object into byte stream. Deserialization is the reverse process where the
+byte stream is used to recreate the actual java object in memory.
+
+When to use transient variable in java?
+A. transient is a variables modifier used in serialization. At the time of serialization, if we don't want to save value of a
+particular variable in a file, then we use transient keyword. When JVM comes across transient keyword, it ignores original value
+of the variable and save default value of that variable data type.
+
 Difference between while and do..while loop?
+A. While loop: condition is tested at the beginning of the loop and if the condition is True then only statements in that
+loop will be executed. So, While loop executes the code block only if the condition is True.
+Do While loop: condition is tested at the end of the loop so Do While executes the statements in the code block at least
+once even if the condition Fails.
+
 What is Enum?
+A. Enum represents constant data types. It is a special "class" that represents a group of constants(unchangeable variables,
+like final variables).
+
 What is Iterator?
+A. Iterator is used for iterating (looping) various collection classes such as HashMap, ArrayList, LinkedList etc.
+
 Which one will take more memory, an int or Integer?
+A. Integer will take more memory than int.
+
 Why is String Immutable in Java?
+A. String is immutable for several reasons:
+- Security: parameters are typically represented as String in network connections, database connection urls, usernames/passwords etc.
+If it were mutable, these parameters could be easily changed.
+- Synchronization and concurrency: making String immutable automatically makes them thread safe thereby solving the synchronization issues.
+- Caching: when compiler optimizes your String objects, it sees that if two objects have same value (a="test", and b="test") and
+thus you need only one string object (for both a and b, these two will point to the same object).
+- Class loading: String is used as arguments for class loading. If mutable, it could result in wrong class being loaded
+(because mutable objects change their state).
+
 What is constructor chaining in Java?
+A. Calling a constructor from the another constructor of same class is known as Constructor chaining. The real purpose of
+Constructor Chaining is that you can pass parameters through a bunch of different constructors, but only have the initialization done
+in a single place. This allows you to maintain your initializations from a single location, while providing multiple constructors
+to the user. If we don’t chain, and two different constructors require a specific parameter, you will have to initialize
+that parameter twice, and when the initialization changes, you’ll have to change it in every constructor, instead of just the one.
+
 The difference between Serial and Parallel Garbage Collector?
+A. Serial collector: a default collector which uses one garbage collection thread for the Garbage collection operation.
+Parallel collector: uses multiple Garbage Collection thread for the garbage collection operation.
+
 What is JIT stands for?
+A. JIT stands for Just In Time compilation.
+
 Explain Java Heap space and Garbage collection?
+A. Java Heap space: is used by java runtime to allocate memory to Objects and JRE classes. Whenever we create any object,
+it’s always created in the Heap space.
+Garbage Collection: runs on the heap memory to free the memory used by objects that does not have any reference.
+Any object created in the heap space has global access and can be referenced from anywhere of the application.
+
 Can you guarantee the garbage collection process?
+A. No, you can't guarantee the garbage collection process.
+
 What is the difference between stack and heap in Java?
+A. Heap memory is used by all the parts of the application whereas stack memory is used only by one thread of execution.
+Whenever an object is created, it's always stored in the Heap space and stack memory contains the reference to it.
+
 What is reflection in java and why is it useful?
-what is multithreading in java?
+A. Java Reflection is a process of examining or modifying the run time behavior of a class at run time.
+Reflection is useful since it lets you write programs that do not have to "know" everything at compile time, making them
+more dynamic, since they can be tied together at runtime. The code can be written against known interfaces, but the actual
+classes to be used can be instantiated using reflection from configuration files.
+
+What is multithreading in java?
+A. Multithreading in java is a process of executing multiple threads simultaneously.
+
 What is the use of synchronization in Java?
+A. Synchronization in java is the capability to control the access of multiple threads to any shared resource.
+Java Synchronization is better option where we want to allow only one thread to access the shared resource. We can achieve
+the Synchronization with the help of synchronized modifier.
+
 What is Framework?
+A. Java Frameworks are nothing but large bodies of predefined Java code which you can apply to your own code to solve your
+problem in a specific domain. You can use a framework by calling its methods, inheritance, by providing “callbacks”,
+listeners, or other implementations of the Observer pattern.
+
 What are the testing Framework available in java?
+A. JUnit, TestNG, Data Driven, Keyword Driven, Hybrid, Page Object Model.
+
 Difference between jUnit and testNG?
+A. Both TestNG and JUnit Testing framework used for Unit Testing.
+TestNG is similar to JUnit. Just few more functionalities/annotations are added to it that makes TestNG more powerful than JUnit.
+Ex: dependency testing, group testing, suit testing.
+
 What are the dependencies for this project?
-what is dependency injection in java?
+A.  junit-4.12.jar
+    testng-6.8.7.jar
+
+What is dependency injection in java?
+A. It is a technique where one object supplies the dependencies of another object.
+
 What is static binding and dynamic binding?
+A. Static binding occurs during compile time while dynamic binding occurs during runtime.
 
 
 
