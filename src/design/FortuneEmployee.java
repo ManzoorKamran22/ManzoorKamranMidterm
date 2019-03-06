@@ -51,6 +51,5 @@ public class FortuneEmployee {
 		//ConnectToSqlDB connection = new ConnectToSqlDB();
 		//connection.insertDataFromStringToSqlTable("employees","column1","column2");
 
-
 	}
 }

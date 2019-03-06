@@ -19,7 +19,6 @@ public class UnitTestingEmployeeInfo {
             //Get and Set Unit Testing
             emp1.setSalary(100000);
             Assert.assertEquals(emp1.getSalary(), 100000);
-
         }
     }
 }
