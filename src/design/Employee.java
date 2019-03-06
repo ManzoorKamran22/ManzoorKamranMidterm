@@ -13,6 +13,12 @@ public interface Employee {
 	
 	//employeeName() will return employee name
 	public String employeeName();
+
+	//employeeGender() return employee gender
+	public String employeeGender();
+
+	//employeeJobTitle() will return employee job title;
+	public String employeeJobTitle();
 	
 	//assignDepartment() will assign employee to departments
     public void assignDepartment();

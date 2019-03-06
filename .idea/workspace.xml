@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf125068-80bd-41d7-926e-f856450ecbd3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/definition/core-java-conceptual-questions" beforeDir="false" afterPath="$PROJECT_DIR$/src/definition/core-java-conceptual-questions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design/EmployeeInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/EmployeeInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design/FortuneEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/FortuneEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design/UnitTestingEmployeeInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/UnitTestingEmployeeInfo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,26 +19,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/design/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/design/EmployeeInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-600">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state>
+              <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/definition/core-java-conceptual-questions">
+        <entry file="file://$PROJECT_DIR$/src/design/CompanyDesc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="275" lean-forward="true" selection-start-line="275" selection-end-line="275" />
+            <state relative-caret-position="90">
+              <caret line="6" column="62" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -43,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/design/FortuneEmployee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="22" selection-start-line="5" selection-start-column="7" selection-end-line="10" selection-end-column="16" />
+            <state relative-caret-position="630">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
             </state>
           </provider>
         </entry>
@@ -61,8 +55,48 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/design/UnitTestingEmployeeInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="375">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/design/EmployeeInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2070">
+              <caret line="138" column="83" selection-end-line="344" />
+              <folding>
+                <element signature="e#5529#5530#0" expanded="true" />
+                <element signature="e#5644#5645#0" expanded="true" />
+                <element signature="e#5711#5712#0" expanded="true" />
+                <element signature="e#5804#5805#0" expanded="true" />
+                <element signature="e#5878#5879#0" expanded="true" />
+                <element signature="e#5982#5983#0" expanded="true" />
+                <element signature="e#6044#6045#0" expanded="true" />
+                <element signature="e#6124#6125#0" expanded="true" />
+                <element signature="e#6192#6193#0" expanded="true" />
+                <element signature="e#6278#6279#0" expanded="true" />
+                <element signature="e#6380#6381#0" expanded="true" />
+                <element signature="e#6622#6623#0" expanded="true" />
+                <element signature="e#6734#6735#0" expanded="true" />
+                <element signature="e#6804#6805#0" expanded="true" />
+                <element signature="e#6900#6901#0" expanded="true" />
+                <element signature="e#6966#6967#0" expanded="true" />
+                <element signature="e#7054#7055#0" expanded="true" />
+                <element signature="e#7115#7116#0" expanded="true" />
+                <element signature="e#7196#7197#0" expanded="true" />
+                <element signature="e#7268#7269#0" expanded="true" />
+                <element signature="e#7368#7369#0" expanded="true" />
+                <element signature="e#6638#6639#0" expanded="true" />
+                <element signature="e#6656#6657#0" expanded="true" />
+                <element signature="e#7568#7569#0" expanded="true" />
+                <element signature="e#7646#7647#0" expanded="true" />
+                <element signature="e#7731#7732#0" expanded="true" />
+                <element signature="e#7812#7813#0" expanded="true" />
+                <element signature="e#7897#7898#0" expanded="true" />
+                <element signature="e#8054#8055#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -75,6 +109,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>setP</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -119,6 +158,11 @@
         <option value="$PROJECT_DIR$/src/string/problems/UnitTestingStringProblem.java" />
         <option value="$PROJECT_DIR$/src/definition/data-structure-questions" />
         <option value="$PROJECT_DIR$/src/definition/core-java-conceptual-questions" />
+        <option value="$PROJECT_DIR$/src/design/Employee.java" />
+        <option value="$PROJECT_DIR$/src/design/UnitTestingEmployeeInfo.java" />
+        <option value="$PROJECT_DIR$/src/design/EmployeeInfo.java" />
+        <option value="$PROJECT_DIR$/src/design/FortuneEmployee.java" />
+        <option value="$PROJECT_DIR$/src/design/CompanyDesc.java" />
       </list>
     </option>
   </component>
@@ -145,23 +189,7 @@
             <path>
               <item name="MidtermJanuary2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="MidtermJanuary2019" type="462c0819:PsiDirectoryNode" />
-              <item name="driver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MidtermJanuary2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MidtermJanuary2019" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MidtermJanuary2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MidtermJanuary2019" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MidtermJanuary2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MidtermJanuary2019" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="definition" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MidtermJanuary2019" type="b2602c69:ProjectViewProjectNode" />
@@ -176,7 +204,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551831807469" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551912952998" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -194,7 +222,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DuplicateWord">
+  <component name="RunManager" selected="Application.UnitTestingEmployeeInfo">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -229,13 +257,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.problems.Palindrome" />
+    <configuration name="FortuneEmployee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="design.FortuneEmployee" />
       <module name="CodingExamJanuary2019" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.problems.*" />
+          <option name="PATTERN" value="design.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -243,13 +271,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.problems.Permutation" />
+    <configuration name="UnitTestingEmployeeInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="design.UnitTestingEmployeeInfo" />
       <module name="CodingExamJanuary2019" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.problems.*" />
+          <option name="PATTERN" value="design.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -304,17 +332,17 @@
     <list>
       <item itemvalue="Application.Anagram" />
       <item itemvalue="Application.DuplicateWord" />
-      <item itemvalue="Application.Palindrome" />
-      <item itemvalue="Application.Permutation" />
       <item itemvalue="Application.UnitTestingStringProblem" />
+      <item itemvalue="Application.FortuneEmployee" />
+      <item itemvalue="Application.UnitTestingEmployeeInfo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UnitTestingEmployeeInfo" />
+        <item itemvalue="Application.FortuneEmployee" />
         <item itemvalue="Application.DuplicateWord" />
         <item itemvalue="Application.UnitTestingStringProblem" />
         <item itemvalue="Application.Anagram" />
-        <item itemvalue="Application.Permutation" />
-        <item itemvalue="Application.Palindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -344,12 +372,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3987952" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.28674698" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.28674698" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
@@ -365,9 +393,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/codelab/status/roster-file-03-02-2019.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/codelab/status/Trainee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -454,13 +479,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/UnitTestSorting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-940">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/math/problems/FindMissingNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -479,13 +497,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="22" lean-forward="true" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/Sort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="26" column="55" lean-forward="true" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -622,16 +633,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/Numbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="95" column="78" lean-forward="true" selection-start-line="95" selection-start-column="78" selection-end-line="95" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/datastructure/CollectionView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -738,15 +739,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/design/UnitTestingEmployeeInfo.java">
+    <entry file="file://$USER_HOME$/Desktop/Random Files /Java Midterm/midtermNovember2018-master/src/design/Employee.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/definition/core-java-conceptual-questions">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="432">
+          <caret line="275" lean-forward="true" selection-start-line="275" selection-end-line="275" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/Random Files /Java Midterm/midtermNovember2018-master/src/design/Employee.java">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/algorithm/Numbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="95" column="78" lean-forward="true" selection-start-line="95" selection-start-column="78" selection-end-line="95" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/Sort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="55" lean-forward="true" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/UnitTestSorting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-940">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/UnitTestingEmployeeInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/EmployeeInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2070">
+          <caret line="138" column="83" selection-end-line="344" />
+          <folding>
+            <element signature="e#5529#5530#0" expanded="true" />
+            <element signature="e#5644#5645#0" expanded="true" />
+            <element signature="e#5711#5712#0" expanded="true" />
+            <element signature="e#5804#5805#0" expanded="true" />
+            <element signature="e#5878#5879#0" expanded="true" />
+            <element signature="e#5982#5983#0" expanded="true" />
+            <element signature="e#6044#6045#0" expanded="true" />
+            <element signature="e#6124#6125#0" expanded="true" />
+            <element signature="e#6192#6193#0" expanded="true" />
+            <element signature="e#6278#6279#0" expanded="true" />
+            <element signature="e#6380#6381#0" expanded="true" />
+            <element signature="e#6622#6623#0" expanded="true" />
+            <element signature="e#6734#6735#0" expanded="true" />
+            <element signature="e#6804#6805#0" expanded="true" />
+            <element signature="e#6900#6901#0" expanded="true" />
+            <element signature="e#6966#6967#0" expanded="true" />
+            <element signature="e#7054#7055#0" expanded="true" />
+            <element signature="e#7115#7116#0" expanded="true" />
+            <element signature="e#7196#7197#0" expanded="true" />
+            <element signature="e#7268#7269#0" expanded="true" />
+            <element signature="e#7368#7369#0" expanded="true" />
+            <element signature="e#6638#6639#0" expanded="true" />
+            <element signature="e#6656#6657#0" expanded="true" />
+            <element signature="e#7568#7569#0" expanded="true" />
+            <element signature="e#7646#7647#0" expanded="true" />
+            <element signature="e#7731#7732#0" expanded="true" />
+            <element signature="e#7812#7813#0" expanded="true" />
+            <element signature="e#7897#7898#0" expanded="true" />
+            <element signature="e#8054#8055#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/design/Months.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -755,31 +825,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/design/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/design/FortuneEmployee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="22" selection-start-line="5" selection-start-column="7" selection-end-line="10" selection-end-column="16" />
+        <state relative-caret-position="630">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/design/EmployeeInfo.java">
+    <entry file="file://$PROJECT_DIR$/src/design/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-600">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state>
+          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/definition/core-java-conceptual-questions">
+    <entry file="file://$PROJECT_DIR$/src/design/CompanyDesc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="275" lean-forward="true" selection-start-line="275" selection-end-line="275" />
+        <state relative-caret-position="90">
+          <caret line="6" column="62" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
         </state>
       </provider>
     </entry>

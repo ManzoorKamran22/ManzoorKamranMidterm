@@ -13,10 +13,33 @@ public class FortuneEmployee {
 	 * Use any databases[MongoDB, Oracle, MySql] to store data and retrieve data.
 	 *
 	 **/
-	public static void main(String[] args) {
-		
 
+
+	public static void main(String[] args) {
+
+		CompanyDesc comDesc = new EmployeeInfo();
+
+		System.out.println("Company Name: " + comDesc.companyName("InfoTech") + "\n" +
+							comDesc.companyMission("Our mission is to change people's living standard" +
+									                            " by helping them to enter into the IT industry"));
+		comDesc.benefitLayout();
+
+		System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+
+		EmployeeInfo emp1 = new EmployeeInfo("John", 101, "Male", 1800, "Developer");
+		EmployeeInfo emp2 = new EmployeeInfo("Jenny", 102, "Female", 1200, "Manual Tester");
+		EmployeeInfo emp3 = new EmployeeInfo("Jack", 103, "Male", 2800, "Tech Lead");
+		EmployeeInfo emp4 = new EmployeeInfo("Jackson", 104, "Male", 1700, "BA");
+		EmployeeInfo emp5 = new EmployeeInfo("Jonny", 105, "Male", 3000, "DBA");
+		EmployeeInfo emp6 = new EmployeeInfo("Jennifer", 106, "Female", 2500, "Automation Engineer");
+
+		//Calculate Employees bonus based on years of working with the company
+		System.out.println("Yearly Bonus: " + EmployeeInfo.calculateEmployeeBonus(8, 1500));
+
+		System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+
+		//Calculate Employees pension based on years of working with the company
+		EmployeeInfo.calculateEmployeePension();
 
 	}
-
 }
