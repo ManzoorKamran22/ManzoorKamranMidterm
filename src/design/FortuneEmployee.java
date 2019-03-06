@@ -1,4 +1,10 @@
 package design;
+import databases.ConnectToSqlDB;
+
+import java.sql.Connection;
+
+import java.io.IOException;
+import java.sql.SQLException;
 
 public class FortuneEmployee {
 
@@ -15,7 +21,7 @@ public class FortuneEmployee {
 	 **/
 
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws SQLException, IOException, ClassNotFoundException {
 
 		CompanyDesc comDesc = new EmployeeInfo();
 
@@ -40,6 +46,11 @@ public class FortuneEmployee {
 
 		//Calculate Employees pension based on years of working with the company
 		EmployeeInfo.calculateEmployeePension();
+
+		//Database Insertion
+		//ConnectToSqlDB connection = new ConnectToSqlDB();
+		//connection.insertDataFromStringToSqlTable("employees","column1","column2");
+
 
 	}
 }
